@@ -1,0 +1,435 @@
+
+
+.body{
+  font-family:lato;
+}
+
+.right-half {
+  flex: 1;
+  background-color: lightgrey; 
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: row;
+
+}
+
+
+
+
+
+
+.section {
+    width: 100vw;
+  }
+  
+  .section1 {
+    height: 90vh;
+    background-repeat:no-repeat;
+   
+    background-color: black;
+    background-position:0 -20vh;
+    background-image:url('../assets/back2.jpg');
+    background-size:100vw 100vh;
+    
+   
+   
+    
+  }
+  .section1 .left-part{
+    width: 80%;
+    height:100%;
+  
+    box-sizing: border-box; 
+    color: white;
+    display: flex;
+    flex-direction: column; 
+    justify-content:flex-end;
+    font-size: xx-large;
+    font-family: 'Lato', sans-serif;
+    line-height: 1.5;
+    padding:5vh;
+
+  }
+  
+  .left-part p{
+    font-size:50px;
+  }
+  .section1 .right-part {
+    width: 30%;
+
+  }
+  
+  .section2 {
+    height: 50vh;
+    background-color: white;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+    border:1px solid black;
+   
+  }
+
+  .section2 h1{
+    width: 50vw;
+    align-self: center;
+    text-align: center;
+    justify-content: center;
+    line-height: 1.7;
+    font-family: 'Lato', sans-serif;
+  }
+  
+
+  .section2 button {
+    height: 10vh;
+    width: 13vw;
+    background-color: rgba(2, 9, 25, 255);
+    color: white;
+    align-self: center;
+    align-items: center;
+    border-radius: 10vh;
+    margin-top: 2vh;
+    font-size: large;
+    border-width:0;
+    
+    transition: background-color 0.3s ease; 
+  
+  }
+
+.section2 button:hover {
+  background-color:grey;
+}
+
+
+
+.section3 {
+  height: 100vh;
+  background-image: url('../assets/back7.jpg');
+  background-size:100vw 100vh;
+  repeat:false;
+  font-family:'Lato';
+
+ 
+ 
+  
+ 
+}
+
+
+
+
+
+.subsection1 {
+
+}
+
+.subsection1 h1{
+  color: white;
+  text-align: center;
+  padding:3vh 0;
+  font-size:60px;
+}
+
+.section3 img{
+  height: 50vh;
+  width: 50vw;
+  margin: 2vh auto;
+  display: block;
+  border-radius:1vh;
+  
+}
+
+.subsection2{
+  width:100vw;
+  
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+} 
+.subsection2 h2 {
+  color: white;
+  text-align: center;
+  align-self:center;
+  
+}
+
+.subsection2 button{
+  background-color: white;
+  align-self:center;
+  color: black;
+  height: 10vh;
+  width: 13vw;
+  transition: background-color 0.3s ease;
+  border-radius: 10vh;
+  border-width:0px;
+  font-size:large;
+  
+}
+
+button:hover {
+  background-color:grey;
+    color:white;
+  
+}
+
+
+
+
+  .section4{
+    height: 60vh;
+    display: flex;
+    background-color: white;
+    font-family:'Lato'; 
+    text-align: center;
+    text-align: center;
+    display:'flex';
+    flex-direction:column;
+   
+   
+    
+  
+  }
+  
+
+
+
+
+p {
+  margin-top:10vh;
+  margin-bottom: 2vh;
+  font-size:50px;
+}
+
+.Certifications {
+  margin-top:15vh;
+  display: flex;
+  justify-content: space-around;
+  width:90vw;
+  align-self:center;
+}
+
+.CertiSubContainer {
+  
+  text-align: center;
+  display:flex;
+  flex-direction:row;
+
+ 
+ 
+}
+
+.CertiSubContainer img {
+  width:5vh;
+  height:5vh; 
+
+}
+
+.CertiSubContainer h2 {
+  margin-top: 1vh;
+  align-self:center;
+  padding-left:0.5vw;
+}
+
+
+
+  
+
+
+  
+
+
+
+  .section5 {
+    background-color: black;
+    height: 50vh;
+    display:flex;
+    justify-content:center;
+    flex-direction:column;
+    
+  }
+  
+  
+
+  .section5 p{
+    color:white;
+    font-size:60px;
+    align-self:center;
+  }
+
+  .section5 button{
+    background-color: white;
+    align-self:center;
+    color: black;
+    height: 10vh;
+    width: 13vw;
+    transition: background-color 0.3s ease;
+    border-radius: 10vh;
+    border-width:0px;
+    margin-top:10vh;
+    font-size:large;
+    
+  }
+
+  .section5 button:hover{
+   
+    background-color:grey;
+    color:white
+  }
+
+
+  .Section6{
+    background-color: black;
+    height: 50vh;
+    display:flex;
+    flex-direction:row;
+    color:white;
+    background-color: white;
+  }
+
+  .Section6 .Subsection1{
+    align-self:left;
+    padding-left:5vw;
+    justify-content:center;
+    
+  }
+   
+  .Section6 .Subsection1 p{
+    font-size:25px;
+    justify-content:space-around;
+    text-decoration: underline;
+    
+  }
+
+
+
+ 
+  
+  
+ 
+
+  @media (max-width: 768px) {
+    .section1{
+      background-size:100vh;
+      background-position:0 -10vh;
+    }
+    .section1 .left-part {
+      width:80vw;
+      font-size: medium;
+      padding-bottom:10vh;
+    }
+
+    .left-part p{
+      font-size:25px;
+    
+    }
+
+    .section2 h1{
+      font-size: medium;
+      width: 80vw;
+      font-family:lato;
+      font-weight:100;
+      
+    }
+
+   
+
+    .section2 button{
+      height:7vh;
+      width: 40vw;
+      background-color: black;
+      color: white;
+      align-self: center;
+      align-items: center;
+      border-radius: 10vh;
+      margin-top: 5vh;
+      font-size: small;
+    }
+
+
+    .subsection1 h1{  
+      font-size:30px;
+      font-weight:100;
+    }
+    
+    .section3 img{
+      height: 35vh;
+      width:70vw;
+      margin: 3vh auto; 
+    
+    }
+    
+   
+    .subsection2 h2 {
+      color: white;
+      
+      align-self:center;
+      font-size:15px;
+      width:80vw;
+      margin-top:5vh;
+      font-weight:100;
+      
+      
+    }
+    
+    .subsection2 button{
+      background-color: white;
+      align-self:center;
+      color: black;
+      height:7vh;
+      width: 40vw;
+      transition: background-color 0.3s ease;
+      border-radius: 10vh;
+      border-width:0px;
+      font-size:small;
+      margin-top:10vh;
+      
+    }
+
+    .section4 p {
+      font-size:30px;
+    }
+    
+    .Certifications {
+      margin-top:15vh;
+      display: flex;
+      justify-content: space-around;
+      width:90vw;
+      align-self:center;
+      
+    }
+    
+    .CertiSubContainer {
+      flex-direction:column;
+
+    }
+    
+    .CertiSubContainer img {
+      width:5vh;
+      height:5vh; 
+      align-self:center;
+    }
+  
+    .CertiSubContainer h2 {
+      font-size:15px;
+      font-weight:100;
+    }
+
+
+
+    .section5 p{
+      font-size:30px;
+    }
+
+    .section5  button{
+      height:7vh;
+      width: 40vw;
+      font-size:small;
+    }
+
+    .Section6{
+      height:30vh;
+      background-color:red;
+    }
+    
+  }
