@@ -57,7 +57,7 @@
     list-style-type: none;
     
     display: flex;
-    flex-wrap: wrap; /* Allow items to wrap to the next line */
+    flex-wrap: wrap; 
     height: auto;
     width:90vw;
     align-self:center;
@@ -67,16 +67,16 @@
 }
 
 .SectionThree li {
-    width: 50%; /* Each item takes 50% of the container's width */
+    width: 50%; 
     height: 15vh;
-    box-sizing: border-box; /* Include padding and border in the width */
+    box-sizing: border-box; 
     
     font-family: Lato;
     font-size: 40px;
-    box-sizing: border-box; /* Include padding and border in the width */
-    padding: 10px; /* Add padding to create space between items */
+    box-sizing: border-box; 
+    padding: 10px; 
     box-sizing: border-box;
-    /* Include padding and border in the width */
+   
 }
 .ButtonExplore{
     display:flex;
@@ -155,9 +155,7 @@
     .ButtonExplore{
         
         height:20vh;
-        /* display:flex;
-        justify-content:center;
-        align-item:center; */
+        
         
     }
 
@@ -165,7 +163,7 @@
     .ButtonExplore button{
         height: 10vh;
         width: 50vw;
-        /* align-self:center; */
+        
         
 
         
