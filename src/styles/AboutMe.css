@@ -46,7 +46,8 @@ body {
 
 .Section1Right h3{
   color:white;
-  font-size:40px;
+  font-size:5vh;
+
 
 }
 
@@ -71,7 +72,7 @@ body {
 
 .Section2Left h3{
   color:black;
-  font-size:40px;
+  font-size:4vh;
 }
 
 
@@ -113,7 +114,7 @@ body {
 
 .s3rsubcontainer h3{
   color:white;
-  font-size:40px;
+  font-size:5vh;
 
 
 }
@@ -135,7 +136,7 @@ body {
 } 
 
 .Section4 h3{
-  font-size:50px;
+  font-size:6vh;
   margin:0 auto;
   margin-top:15%;
   color:black;

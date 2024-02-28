@@ -37,7 +37,7 @@ const AboutMe = () => {
         <div className="Section2Left">
             <div>
                 <h3 className="s1rsubcontainer" >
-                  I'm a Master's student at Northeastern University, Toronto, where I'm gaining valuable industry insights and honing my skills while embracing Canada's rich diversity and the kindness of its people. With a Bachelor's degree in Computer Science Engineering, I attained a GPA of 9.7, and I'm currently pursuing my Master's with a GPA of 3.89.
+                   As a graduate student at Northeastern University in Toronto, I am actively engaged in deepening my understanding of industry practices and refining my skill set while embracing the vibrant cultural tapestry and hospitality of Canada. Possessing a Bachelor's degree in Computer Science Engineering, I proudly earned a GPA of 9.7, reflecting my dedication to academic excellence. Currently pursuing my Master's degree with a GPA of 3.89, I am committed to continuous learning and contributing meaningfully to advancements in my field.
                 </h3>
             </div>
           </div>
@@ -52,7 +52,9 @@ const AboutMe = () => {
        <div className="Section3">
           <div className="s3rsubcontainer" >
               <h3>
-              I possess a comprehensive skill set suitable for a Data Analyst role. Recently, I successfully passed the Microsoft PL-300 (Power BI Certification) exam, which has equipped me with advanced knowledge in business intelligence tools and techniques. Furthermore, I am a Google Certified Data Analyst, demonstrating proficiency in fundamental data analysis principles.<br/><br/>Beyond my technical expertise, I am an active investor, achieving an impressive 60% return on investment over a three-year period. Additionally, I am proficient in native mobile development using React Native, as well as web application development with React and JavaScript. I have applied these skills through participation in both live industry projects and freelancing tasks.
+              With a robust skill set tailored for a Data Analyst role, I recently attained the Microsoft PL-300 (Power BI Certification), showcasing my advanced proficiency in utilizing business intelligence tools and methodologies. Moreover, as a Google Certified Data Analyst, I have demonstrated mastery in essential data analysis principles.
+
+              <br/><br/> In addition to my technical acumen, my proactive involvement in investment activities has yielded remarkable results, achieving a notable 60% return on investment over a three-year span. Furthermore, my expertise extends to native mobile development using React Native, as well as web application development utilizing React and JavaScript. I have effectively applied these skills through active participation in industry projects and freelance endeavors.
               </h3>
           </div>
         </div>

@@ -22,10 +22,10 @@
 }
 
 .SubContainerSOne h1{
-    font-size:45px;
+    font-size:6vh;
 }
 .SubContainerSOne h2{
-    font-size:35px;
+    font-size:5vh;
 }
 
 .SectionTwo{
@@ -49,7 +49,7 @@
     display:flex;
     
     justify-content:center;
-    font-size:50px;
+    font-size:5vh;
     
 }
 
@@ -72,7 +72,7 @@
     box-sizing: border-box; 
     
     font-family: Lato;
-    font-size: 40px;
+    font-size:4vh;
     box-sizing: border-box; 
     padding: 10px; 
     box-sizing: border-box;

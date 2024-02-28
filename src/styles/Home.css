@@ -5,7 +5,7 @@
 }
 
 .right-half {
-  flex: 1;
+  flex:1;
   background-color: lightgrey; 
   color: white;
   display: flex;
@@ -54,7 +54,7 @@
   }
   
   .left-part p{
-    font-size:50px;
+    font-size:6vh;
   }
   .section1 .right-part {
     width: 30%;
@@ -78,6 +78,7 @@
     justify-content: center;
     line-height: 1.7;
     font-family: 'Lato', sans-serif;
+    font-size:4vh;
   }
   
 
@@ -90,7 +91,7 @@
     align-items: center;
     border-radius: 10vh;
     margin-top: 2vh;
-    font-size: large;
+    font-size:2.5vh;
     border-width:0;
     
     transition: background-color 0.3s ease; 
@@ -128,7 +129,7 @@
   color: white;
   text-align: center;
   padding:3vh 0;
-  font-size:60px;
+  font-size:6vh;
 }
 
 .section3 img{
@@ -151,6 +152,7 @@
   color: white;
   text-align: center;
   align-self:center;
+  font-size:3vh;
   
 }
 
@@ -163,7 +165,7 @@
   transition: background-color 0.3s ease;
   border-radius: 10vh;
   border-width:0px;
-  font-size:large;
+  font-size:2.5vh;
   
 }
 
@@ -198,7 +200,7 @@ button:hover {
 p {
   margin-top:10vh;
   margin-bottom: 2vh;
-  font-size:50px;
+  font-size:5vh;
 }
 
 .Certifications {
@@ -253,7 +255,7 @@ p {
 
   .section5 p{
     color:white;
-    font-size:60px;
+    font-size:7vh;
     align-self:center;
   }
 
@@ -267,7 +269,7 @@ p {
     border-radius: 10vh;
     border-width:0px;
     margin-top:10vh;
-    font-size:large;
+    font-size:2.5vh;
     
   }
 

@@ -129,7 +129,7 @@ const App = () => {
           window.location.href = 'https://www.linkedin.com/in/dhruv-patel30/';
         }
        }>
-        Connect With Me
+        Let's Connect 
        </button>
 
       
