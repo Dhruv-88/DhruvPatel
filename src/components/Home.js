@@ -85,8 +85,8 @@ const App = () => {
           <img src={ProjectImage} alt="ProjectImage"/>
         </div>
         <div className="subsection2">
-          <h2 >Interactive Business Intellegent Dashbord for SuperMarket Sales Data <br/>
-          to analyse key matrics, company performance and sales.</h2>
+          <h2 >Interactive Business Intellegent Dashbord for SuperMarket SalesData <br/>
+          to analyse key metrics, company performance and sales.</h2>
           <button 
           onClick={
             ()=>navigate('/IndevidualProject/1')
@@ -137,8 +137,10 @@ const App = () => {
 
       {/* Section 6  */}
       <div className="section Section6">
-        <div class="Subsection1">
-          <p onClick={
+        <div class="Subsection1" >
+          <p 
+           
+          onClick={
             ()=>navigate('/projects')
           }>
             My Work 

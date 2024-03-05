@@ -177,12 +177,13 @@ body {
 
 .Section1Right h3{
   color:white;
-  font-size:19px;
+  /* font-size:19px; */
+  font-size:2vh;
   font-weight:100;
 
 }
 .Section2Left h3{
-  font-size:19px;
+  font-size:2vh;
   font-weight:100;
 }
 
@@ -193,11 +194,11 @@ body {
 }
 .s3rsubcontainer h3{
   color:white;
-  font-size:19px;
+  font-size:2vh;
   font-weight:100;
 }
 .Section4 h3{
-  font-size:20px;
+  font-size:2vh;
   margin:0 auto;
   margin-top:70%;
   color:black;

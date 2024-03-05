@@ -323,11 +323,12 @@ p {
 
     .left-part p{
       font-size:25px;
+      font-size:3.5vh;
     
     }
 
     .section2 h1{
-      font-size: medium;
+      font-size:3vh;
       width: 80vw;
       font-family:lato;
       font-weight:100;
@@ -350,7 +351,7 @@ p {
 
 
     .subsection1 h1{  
-      font-size:30px;
+      font-size:3.5vh;
       font-weight:100;
     }
     
@@ -366,7 +367,7 @@ p {
       color: white;
       
       align-self:center;
-      font-size:15px;
+      font-size:2.5vh;
       width:80vw;
       margin-top:5vh;
       font-weight:100;
@@ -387,9 +388,12 @@ p {
       margin-top:10vh;
       
     }
+    .section3 {
+      background-size:140vw 100vh;
+    }
 
     .section4 p {
-      font-size:30px;
+      font-size:3.5vh;
     }
     
     .Certifications {
@@ -413,14 +417,14 @@ p {
     }
   
     .CertiSubContainer h2 {
-      font-size:15px;
+      font-size:2vh;
       font-weight:100;
     }
 
 
 
     .section5 p{
-      font-size:30px;
+      font-size:3.5vh;
     }
 
     .section5  button{
@@ -432,6 +436,11 @@ p {
     .Section6{
       height:30vh;
       background-color:red;
+    }
+
+    #id{
+      font-size:3vh;
+      color:red
     }
     
   }
