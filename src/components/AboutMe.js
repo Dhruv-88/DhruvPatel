@@ -24,7 +24,7 @@ const AboutMe = () => {
         <div className="Section1Right">
           <div>
               <h3 className="s1rsubcontainer" >
-                Hello, I'm Dhruv Aspiring Data Analyst with a passion for the finance world. I'm Eager to leverage my data analytics skills to drive insights and informed decisions. Committed to continuous learning, I'm dedicated to staying at the forefront of new data analytics concepts and financial movements in the world .
+                Hello, I'm Dhruv Data Analyst with a passion for the finance world. I'm Eager to leverage my data analytics skills to drive insights and informed decisions. Committed to continuous learning, I'm dedicated to staying at the forefront of new data analytics concepts and financial movements in the world .
               </h3>
           </div>
             

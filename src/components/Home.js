@@ -32,7 +32,7 @@ const App = () => {
       {/* Section 1 */}
       <div className="section section1" >
         <div className="left-part">
-            <p>I'm Aspiring Data Analyst With Strong Analytical Skills, Committed to Transforming Data into Actionable Insights.</p>
+            <p>I'm Data Analyst at Gamut Canada with strong analytical skills, committed to transforming data into actionable insights.</p>
             
             </div>
 
@@ -47,7 +47,7 @@ const App = () => {
       <div className="section section2">
         
           <h1>
-            I Excel in Crafting Powerful Analytics Projects, Business Intelligence Dashboards, and Insightful Data  Reports.
+            I excel in crafting powerful analytics projects, business intelligence dashboards, and insightful data  reports.
           </h1>
        
         
@@ -85,7 +85,7 @@ const App = () => {
           <img src={ProjectImage} alt="ProjectImage"/>
         </div>
         <div className="subsection2">
-          <h2 >Interactive Business Intellegent Dashbord for SuperMarket SalesData <br/>
+          <h2 >Interactive business intellegent dashbord for super market salesdata <br/>
           to analyse key metrics, company performance and sales.</h2>
           <button 
           onClick={
@@ -100,21 +100,21 @@ const App = () => {
     
       {/* Section 4 */}
       <div className="section section4">
-          <p>I'm Certified With.</p>
+          <p>I'm Certified With ...</p>
           <div className="Certifications">
              <div className="CertiSubContainer">
                  <img src={Google}/>
-                 <h2>Google Data Analyst</h2>
+                 <h2>Google Data Analyst.</h2>
              </div>
 
              <div className="CertiSubContainer">
                  <img src={Microsoft}/>
-                 <h2>Microsoft Data Analyst Associate</h2>
+                 <h2>Microsoft Data Analyst Associate.</h2>
              </div>
 
              <div className="CertiSubContainer">
                  <img src={HackerRank}/>
-                 <h2>Hacker Rank SQL 5 Start Badge</h2>
+                 <h2>Hacker Rank SQL 5 Start Badge.</h2>
              </div>
           </div>
       </div>
