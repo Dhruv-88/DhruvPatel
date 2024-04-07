@@ -123,12 +123,16 @@ body {
   width:100vw;
   height:15vh;
   display:flex;
-  justify-content:center
+  justify-content:center;
 }
 
 .Section3Heading h1{
   color:white;
+  disply:flex;
+  justify-content:center;
   align-self:center;
+  border:1px solid white;
+  font-size:3vh;
 }
 
 .Section3Left{
@@ -344,6 +348,10 @@ body {
   align-items:center;
 
   
+}
+.Section3Heading h1{
+   display:flex;
+   align-self:center;
 }
 .mobilViewContainer{
   height:30%;
