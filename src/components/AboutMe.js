@@ -6,10 +6,13 @@ import Navbar from './Navbar';
 import ProfileImage from '../assets/profileimage.jpeg';
 import Certi from '../assets/certifications.png';
 import TimeLine from '../assets/Timeline.png';
+import TimeLineHor from '../assets/TimelineHor.png';
 import PersonalImage1 from '../assets/personalImage_1.png';
 import PersonalImage2 from '../assets/personalimage_2.jpg';
 import { useNavigate } from 'react-router-dom';
-
+import Investor from '../assets/investor.jpg';
+import WebDeveloper from '../assets/webDeveloper.jpg';
+import MobileDeveloper from '../assets/mobileDeveloper.jpg';
 const AboutMe = () => {
   const navigate = useNavigate();
   return (
@@ -24,7 +27,7 @@ const AboutMe = () => {
         <div className="Section1Right">
           <div>
               <h3 className="s1rsubcontainer" >
-                Hello, I'm Dhruv Data Analyst with a passion for the finance world. I'm Eager to leverage my data analytics skills to drive insights and informed decisions. Committed to continuous learning, I'm dedicated to staying at the forefront of new data analytics concepts and financial movements in the world .
+                Hello, I'm Dhruv Data Analyst with a passion for the finance world. I'm eager to leverage my data analytics skills to drive insights and informed decisions. Committed to continuous learning, I'm dedicated to staying at the forefront of new data analytics concepts and financial movements in the world.
               </h3>
           </div>
             
@@ -34,15 +37,15 @@ const AboutMe = () => {
       {/* section 2 */}
 
       <div className="Section2">
-        <div className="Section2Left">
-            <div>
-                <h3 className="s1rsubcontainer" >
-                   As a graduate student at Northeastern University in Toronto, I am actively engaged in deepening my understanding of industry practices and refining my skill set while embracing the vibrant cultural tapestry and hospitality of Canada. Possessing a Bachelor's degree in Computer Science Engineering, I proudly earned a GPA of 9.7, reflecting my dedication to academic excellence. Currently pursuing my Master's degree with a GPA of 3.89, I am committed to continuous learning and contributing meaningfully to advancements in my field.
-                </h3>
-            </div>
-          </div>
-          <div className="Section2Right">
+       
+          <div className="Section2RightMobil">
           <img src={TimeLine}/>
+              
+          </div>
+
+
+          <div className="Section2Right">
+          <img src={TimeLineHor}/>
               
           </div>
       </div>
@@ -50,23 +53,65 @@ const AboutMe = () => {
      {/* section 3 */}
       
        <div className="Section3">
-          <div className="s3rsubcontainer" >
-              <h3>
-              With a robust skill set tailored for a Data Analyst role, I recently attained the Microsoft PL-300 (Power BI Certification), showcasing my advanced proficiency in utilizing business intelligence tools and methodologies. Moreover, as a Google Certified Data Analyst, I have demonstrated mastery in essential data analysis principles.
+        <div className="Section3Heading">
+            <h1>Beyond my expertise in Data Analysis, I'm also...</h1>
+        </div>
+        <div className="Section3Content">
+            <div className="Section3Left">
+                  <img src={Investor}/>
+                  
+                  <h2 >A Investor with more then 60% ROI</h2>
+                  
+              </div>
 
-              <br/><br/> In addition to my technical acumen, my proactive involvement in investment activities has yielded remarkable results, achieving a notable 60% return on investment over a three-year span. Furthermore, my expertise extends to native mobile development using React Native, as well as web application development utilizing React and JavaScript. I have effectively applied these skills through active participation in industry projects and freelance endeavors.
-              </h3>
-          </div>
+            <div className="Section3Right">
+              
+                    <div className="Section3RightSubWithBorder">
+                          <img src={MobileDeveloper}/>
+                      
+                          <h2>Native Mobile Application Developer </h2>
+                    </div>
+
+                    <div className="Section3RightSub">
+                          <img src={WebDeveloper}/>
+                            
+                            <h2>Website Developer</h2>
+                    </div>
+            </div>
+
+         
+
+        </div>
+
+           <div className="Section3ContentMobileView" >
+                    <div className="mobilViewContainer">
+                    <img src={Investor}/>
+                  
+                  <h2 >Investor with more then 60% ROI</h2>
+                    </div>
+
+                    <div className="mobilViewContainer">
+                    <img src={MobileDeveloper}/>
+                      
+                      <h2>Native Mobile Application Developer </h2>
+                    </div>
+
+                    <div className="mobilViewContainer">
+                          <img src={WebDeveloper}/>
+                            
+                            <h2>Website Developer</h2>
+                    </div>
+            </div>  
+           
+
+           
         </div>
 
         {/* section 4 */}
 
         <div className="Section4" >
           
-           <h3>
-            I love hiking, exploring nature and sunshine ...
-           </h3>
-         
+           
            
 
         </div>

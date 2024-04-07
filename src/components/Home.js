@@ -11,8 +11,15 @@ import HackerRank from '../assets/hackerRank.png';
 import SplitSection from './SplitSection.js';
 import ProjectImage from '../assets/SuperMarketAnalysis1.png';
 import ContactForm from './ContactForm';
+import { VerticalTimeline, VerticalTimelineElement }  from 'react-vertical-timeline-component';
+import 'react-vertical-timeline-component/style.min.css';
+import { BsPhoneFill } from "react-icons/bs";
+import { BsBadgeArFill } from "react-icons/bs";
+import { SiAdobeillustrator } from "react-icons/si";
+import { BsClipboardDataFill } from "react-icons/bs";
 
 
+import CLOUDS from 'vanta/src/vanta.clouds';
 const App = () => {
   
   const navigate = useNavigate();
@@ -32,7 +39,8 @@ const App = () => {
       {/* Section 1 */}
       <div className="section section1" >
         <div className="left-part">
-            <p>I'm Data Analyst at Gamut Canada with strong analytical skills, committed to transforming data into actionable insights.</p>
+            <p>Unlocking Insights From Data,
+              <br/>Welcome To My Data Analyst Portfolio.</p>
             
             </div>
 
@@ -40,6 +48,76 @@ const App = () => {
             <div className="right-part">
               
             </div>
+      </div>
+
+      
+        
+      
+       
+       
+
+   
+      {/* new Section */}
+      <div>
+      <VerticalTimeline>
+  <VerticalTimelineElement
+    className="vertical-timeline-element--work"
+    contentStyle={{ background: 'white', color: 'black' }}
+    contentArrowStyle={{ borderRight: '7px solid  white' }}
+    date="Feb, 2021 - July, 2021"
+    iconStyle={{ background: 'black', color: '#fff' }}
+    icon={<BsPhoneFill />  }
+    
+  >
+    <h3 className="vertical-timeline-element-title">Jr. React Native Intern</h3>
+    <h4 className="vertical-timeline-element-subtitle">India</h4>
+    <p style={{color:'grey'}}>
+      As a React Native intern, I honed my skills in developing native applications by working on real-world application.
+    </p>
+  </VerticalTimelineElement>
+  <VerticalTimelineElement
+    className="vertical-timeline-element--work"
+    date="Jan, 2023 - May, 2023"
+    iconStyle={{ background: 'black', color: '#fff' }}
+    icon={<BsBadgeArFill />}
+   
+  
+  >
+    <h3 className="vertical-timeline-element-title">Bachlor's Final Year Project</h3>
+    <h4 className="vertical-timeline-element-subtitle">Furniture Reality</h4>
+    <p style={{color:'grey'}} >
+     I developed a native mobile application showcasing Augmented Reality technology tailored specifically for the furniture industry.
+    </p>
+  </VerticalTimelineElement>
+  <VerticalTimelineElement
+    className="vertical-timeline-element--work"
+    date="Jan, 2024 - Current"
+    iconStyle={{background: 'black', color: '#fff'  }}
+    icon={<SiAdobeillustrator />  }
+    
+  >
+    <h3 className="vertical-timeline-element-title">Northeastern AI Assistant</h3>
+    <h4 className="vertical-timeline-element-subtitle">Stundent Assistant</h4>
+    <p style={{color:'grey'}}>
+    I collaborated with a professor to develop a cutting-edge chatbot utilizing  RAG (Retrieval-Augmented Generation) technology, integrating openAI and langchain capabilities.
+    </p>
+  </VerticalTimelineElement>
+  <VerticalTimelineElement
+    className="vertical-timeline-element--work"
+    date="March, 2024 - Current"
+    iconStyle={{ background: 'black', color: '#fff'}}
+    icon={<BsClipboardDataFill />  }
+    
+  >
+    <h3 className="vertical-timeline-element-title">Data Analyst</h3>
+    <h4 className="vertical-timeline-element-subtitle">Gamut Canada,Toronto</h4>
+    <p style={{color:'grey'}}>
+     In my current role, I'm crafting a PowerBI dashboard for comprehensive analysis of sales, finances, inventory, and customer data.
+    </p>
+  </VerticalTimelineElement>
+  
+  
+</VerticalTimeline>
       </div>
 
       {/* Section 2 */}

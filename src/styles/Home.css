@@ -30,7 +30,7 @@
    
     background-color: black;
     background-position:0 -20vh;
-    background-image:url('../assets/back2.jpg');
+    background-image:url('../assets/back1.jpeg');
     background-size:100vw 100vh;
     
    
@@ -45,8 +45,8 @@
     color: white;
     display: flex;
     flex-direction: column; 
-    justify-content:flex-end;
-    font-size: xx-large;
+    justify-content:start;
+    font-size: x-large;
     font-family: 'Lato', sans-serif;
     line-height: 1.5;
     padding:5vh;
@@ -312,18 +312,21 @@ p {
 
   @media (max-width: 768px) {
     .section1{
-      background-size:100vh;
-      background-position:0 -10vh;
+      height:60vh;
+      background-size:50vh 100vw;
+      
+      background-position:0 5vh;
+      /* border:1px solid white; */
     }
     .section1 .left-part {
-      width:80vw;
+      width:100vw;
       font-size: medium;
       padding-bottom:10vh;
     }
 
     .left-part p{
-      font-size:25px;
-      font-size:3.5vh;
+      font-size:10px;
+      font-size:2.5vh;
     
     }
 
