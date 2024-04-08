@@ -96,8 +96,12 @@ const Slider = props => {
           </Item>
         ))}
       </ul>
+      
     </div>
+    
     </div>
+    
+    
   )
 
 }

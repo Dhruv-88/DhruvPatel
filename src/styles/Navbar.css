@@ -3,10 +3,12 @@
 
 .body{
   font-family: 'Lato', sans-serif;
+  width: 99vw;
+  border:3px solid red;
 }
 .navbar {
     height: 10vh;
-    width: 100vw;
+    
     background:transparent;
     background-color: red;
    
@@ -101,6 +103,7 @@
   justify-content: space-between;
   align-items: center;
   transition: opacity 0.10s ease-in-out;
+  /* border:1px solid red; */
   
 }
 

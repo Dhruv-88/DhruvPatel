@@ -39,9 +39,12 @@ const IndevidualProject = () => {
        <div className="ImageTitle">
         <h2 >Project Glimpse</h2>
        </div>
+       
         <Slider projectImages={project.projectImages} bg={project.bgColor}/>
-     
+      
+       
      </div>
+     
 
      <div className="SectionThree">
        <h1>

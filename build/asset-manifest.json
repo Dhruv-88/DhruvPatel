@@ -1,8 +1,7 @@
 {
   "files": {
-    "main.css": "/static/css/main.8e07c8fd.css",
-    "main.js": "/static/js/main.80ef0b49.js",
-    "static/media/back7.jpg": "/static/media/back7.d9246d52958c7114f136.jpg",
+    "main.css": "/static/css/main.7e410bfb.css",
+    "main.js": "/static/js/main.3d295d41.js",
     "static/media/back10.jpg": "/static/media/back10.b61b81cd1755ae8d8d48.jpg",
     "static/media/back8.jpg": "/static/media/back8.4f450cfb0e4c10b3a97b.jpg",
     "static/media/personalImage_1.png": "/static/media/personalImage_1.10722072bc6c4302d087.png",
@@ -10,6 +9,7 @@
     "static/media/HealtInsuranceAnalysis4.png": "/static/media/HealtInsuranceAnalysis4.d12e3892e743eebaacaf.png",
     "static/media/pro_7img3.png": "/static/media/pro_7img3.4817925310b89e1800b6.png",
     "static/media/SuperMarketAnalysis3.png": "/static/media/SuperMarketAnalysis3.33b56eecefb2c739c1cb.png",
+    "static/media/back11.jpg": "/static/media/back11.d0d36dcbdfbd25ad7c05.jpg",
     "static/media/pro_7img2.png": "/static/media/pro_7img2.93151bc051cb70a798c0.png",
     "static/media/SuperMarketAnalysis4.png": "/static/media/SuperMarketAnalysis4.778d5666deae9ab0df6c.png",
     "static/media/SuperMarketAnalysis1.png": "/static/media/SuperMarketAnalysis1.cb9452df8aa9c368c367.png",
@@ -39,11 +39,11 @@
     "index.html": "/index.html",
     "static/media/nav-icon1.svg": "/static/media/nav-icon1.721d5414c26365f117e71d46b6641cb2.svg",
     "static/media/google.svg": "/static/media/google.da031122ed2f074aad3e9fe1f32c1bcf.svg",
-    "main.8e07c8fd.css.map": "/static/css/main.8e07c8fd.css.map",
-    "main.80ef0b49.js.map": "/static/js/main.80ef0b49.js.map"
+    "main.7e410bfb.css.map": "/static/css/main.7e410bfb.css.map",
+    "main.3d295d41.js.map": "/static/js/main.3d295d41.js.map"
   },
   "entrypoints": [
-    "static/css/main.8e07c8fd.css",
-    "static/js/main.80ef0b49.js"
+    "static/css/main.7e410bfb.css",
+    "static/js/main.3d295d41.js"
   ]
 }

@@ -58,18 +58,19 @@ const App = () => {
 
    
       {/* new Section */}
-      <div>
+      <div style={{width:'99vw'}}>
       <VerticalTimeline>
   <VerticalTimelineElement
     className="vertical-timeline-element--work"
     contentStyle={{ background: 'white', color: 'black' }}
     contentArrowStyle={{ borderRight: '7px solid  white' }}
-    date="Feb, 2021 - July, 2021"
+    
     iconStyle={{ background: 'black', color: '#fff' }}
     icon={<BsPhoneFill />  }
     
   >
     <h3 className="vertical-timeline-element-title">Jr. React Native Intern</h3>
+    <h4 className="vertical-timeline-element-subtitle">Haraxy Technologies ,Feb 2021 - June 2021</h4>
     <h4 className="vertical-timeline-element-subtitle">India</h4>
     <p style={{color:'grey'}}>
       As a React Native intern, I honed my skills in developing native applications by working on real-world application.
@@ -77,13 +78,14 @@ const App = () => {
   </VerticalTimelineElement>
   <VerticalTimelineElement
     className="vertical-timeline-element--work"
-    date="Jan, 2023 - May, 2023"
+    
     iconStyle={{ background: 'black', color: '#fff' }}
     icon={<BsBadgeArFill />}
    
   
   >
     <h3 className="vertical-timeline-element-title">Bachlor's Final Year Project</h3>
+    <h4 className="vertical-timeline-element-subtitle">Indus University,Jan 2023 - May 2023</h4>
     <h4 className="vertical-timeline-element-subtitle">Furniture Reality</h4>
     <p style={{color:'grey'}} >
      I developed a native mobile application showcasing Augmented Reality technology tailored specifically for the furniture industry.
@@ -91,12 +93,13 @@ const App = () => {
   </VerticalTimelineElement>
   <VerticalTimelineElement
     className="vertical-timeline-element--work"
-    date="Jan, 2024 - Current"
+    
     iconStyle={{background: 'black', color: '#fff'  }}
     icon={<SiAdobeillustrator />  }
     
   >
     <h3 className="vertical-timeline-element-title">Northeastern AI Assistant</h3>
+    <h4 className="vertical-timeline-element-subtitle">Northeastern University, Jan 2024 - Current</h4>
     <h4 className="vertical-timeline-element-subtitle">Stundent Assistant</h4>
     <p style={{color:'grey'}}>
     I collaborated with a professor to develop a cutting-edge chatbot utilizing  RAG (Retrieval-Augmented Generation) technology, integrating openAI and langchain capabilities.
@@ -104,12 +107,15 @@ const App = () => {
   </VerticalTimelineElement>
   <VerticalTimelineElement
     className="vertical-timeline-element--work"
-    date="March, 2024 - Current"
+    
     iconStyle={{ background: 'black', color: '#fff'}}
     icon={<BsClipboardDataFill />  }
     
   >
     <h3 className="vertical-timeline-element-title">Data Analyst</h3>
+    
+    <h4 className="vertical-timeline-element-subtitle">March 2024 - Current</h4>
+
     <h4 className="vertical-timeline-element-subtitle">Gamut Canada,Toronto</h4>
     <p style={{color:'grey'}}>
      In my current role, I'm crafting a PowerBI dashboard for comprehensive analysis of sales, finances, inventory, and customer data.

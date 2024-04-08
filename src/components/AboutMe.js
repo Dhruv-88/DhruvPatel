@@ -54,7 +54,7 @@ const AboutMe = () => {
       
        <div className="Section3">
         <div className="Section3Heading">
-            <h1>Beyond my expertise in Data Analysis, I'm also...</h1>
+            <h1>Beyond my Expertise in Data Analysis, I'm also...</h1>
         </div>
         <div className="Section3Content">
             <div className="Section3Left">
