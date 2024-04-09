@@ -1,7 +1,9 @@
 {
   "files": {
     "main.css": "/static/css/main.7e410bfb.css",
-    "main.js": "/static/js/main.3d295d41.js",
+    "main.js": "/static/js/main.4317c47f.js",
+    "static/media/IBM_img1.png": "/static/media/IBM_img1.ff6d4e5ceb46b373e2de.png",
+    "static/media/IBM_img2.png": "/static/media/IBM_img2.abac7f77a05cc110aa56.png",
     "static/media/back10.jpg": "/static/media/back10.b61b81cd1755ae8d8d48.jpg",
     "static/media/back8.jpg": "/static/media/back8.4f450cfb0e4c10b3a97b.jpg",
     "static/media/personalImage_1.png": "/static/media/personalImage_1.10722072bc6c4302d087.png",
@@ -10,6 +12,8 @@
     "static/media/pro_7img3.png": "/static/media/pro_7img3.4817925310b89e1800b6.png",
     "static/media/SuperMarketAnalysis3.png": "/static/media/SuperMarketAnalysis3.33b56eecefb2c739c1cb.png",
     "static/media/back11.jpg": "/static/media/back11.d0d36dcbdfbd25ad7c05.jpg",
+    "static/media/IBM_img4.png": "/static/media/IBM_img4.36cbeaf6f2153cd721ed.png",
+    "static/media/IBM_img3.png": "/static/media/IBM_img3.f5ce4d7310e1852367e7.png",
     "static/media/pro_7img2.png": "/static/media/pro_7img2.93151bc051cb70a798c0.png",
     "static/media/SuperMarketAnalysis4.png": "/static/media/SuperMarketAnalysis4.778d5666deae9ab0df6c.png",
     "static/media/SuperMarketAnalysis1.png": "/static/media/SuperMarketAnalysis1.cb9452df8aa9c368c367.png",
@@ -29,8 +33,8 @@
     "static/media/CustomerChurnAnalysis4.png": "/static/media/CustomerChurnAnalysis4.e623959051a4b97e77f2.png",
     "static/media/investor.jpg": "/static/media/investor.9c50bb5790c7795dd2f5.jpg",
     "static/media/profileimage.jpeg": "/static/media/profileimage.af2d84580f0c155367fa.jpeg",
-    "static/media/datanalyst_resume.pdf": "/static/media/datanalyst_resume.400c80e4a7a13ed5b877.pdf",
     "static/media/CustomerChurnAnalysis2.png": "/static/media/CustomerChurnAnalysis2.659c39a0de01fd15b01e.png",
+    "static/media/datanalyst_resume.pdf": "/static/media/datanalyst_resume.30549557bb78280484ff.pdf",
     "static/media/CustomerChurnAnalysis1.jpeg": "/static/media/CustomerChurnAnalysis1.c9b1d2220427789d6b64.jpeg",
     "static/media/HealtInsuranceAnalysis3.png": "/static/media/HealtInsuranceAnalysis3.3bab9c33590f0f441108.png",
     "static/media/furnitureReality_poster.png": "/static/media/furnitureReality_poster.b4722f3453b0cce26a0e.png",
@@ -40,10 +44,10 @@
     "static/media/nav-icon1.svg": "/static/media/nav-icon1.721d5414c26365f117e71d46b6641cb2.svg",
     "static/media/google.svg": "/static/media/google.da031122ed2f074aad3e9fe1f32c1bcf.svg",
     "main.7e410bfb.css.map": "/static/css/main.7e410bfb.css.map",
-    "main.3d295d41.js.map": "/static/js/main.3d295d41.js.map"
+    "main.4317c47f.js.map": "/static/js/main.4317c47f.js.map"
   },
   "entrypoints": [
     "static/css/main.7e410bfb.css",
-    "static/js/main.3d295d41.js"
+    "static/js/main.4317c47f.js"
   ]
 }

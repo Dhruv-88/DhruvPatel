@@ -55,7 +55,7 @@ const Project_Page = () => {
       {/* Data analysis */}
       <div className="projectHeading">
         <h1>
-          Data analytic Reports
+          Data Analytics Reports
         </h1>
       </div>
       <div className="project-section">

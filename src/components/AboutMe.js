@@ -27,7 +27,7 @@ const AboutMe = () => {
         <div className="Section1Right">
           <div>
               <h3 className="s1rsubcontainer" >
-                Hello, I'm Dhruv Data Analyst with a passion for the finance world. I'm eager to leverage my data analytics skills to drive insights and informed decisions. Committed to continuous learning, I'm dedicated to staying at the forefront of new data analytics concepts and financial movements in the world.
+                Hello, I'm Dhruv, a Data Analyst with passion for the finance world. I'm eager to leverage my data analytics skills to drive insights and informed decisions. Committed to continuous learning, I'm dedicated to staying at the forefront of new data analytics concepts and financial movements in the world.
               </h3>
           </div>
             
@@ -60,7 +60,7 @@ const AboutMe = () => {
             <div className="Section3Left">
                   <img src={Investor}/>
                   
-                  <h2 >A Investor with more then 60% ROI</h2>
+                  <h2 >An Investor with more then 60% ROI</h2>
                   
               </div>
 
@@ -87,7 +87,7 @@ const AboutMe = () => {
                     <div className="mobilViewContainer">
                     <img src={Investor}/>
                   
-                  <h2 >Investor with more then 60% ROI</h2>
+                  <h2 >Investor with more than 60% ROI</h2>
                     </div>
 
                     <div className="mobilViewContainer">

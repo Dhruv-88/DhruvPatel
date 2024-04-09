@@ -4,6 +4,13 @@ import FinancialReport from '../assets/SuperMarketAnalysis1.png';
 import FinancialReport2 from '../assets/back10.jpg';
 import FurnitureRealityPoster from '../assets/furnitureReality_poster.png'
 
+
+//Dashbord IBM 
+import IBM_1 from '../assets/IBM_img1.png';
+import IBM_2 from '../assets/IBM_img2.png';
+import IBM_3 from '../assets/IBM_img3.png';
+import IBM_4 from '../assets/IBM_img4.png';
+
 //project1 images Sales Analytics Dashbord
 import p1_1 from '../assets/SuperMarketAnalysis1.png';
 import p1_2 from '../assets/SuperMarketAnalysis2.png';
@@ -38,7 +45,7 @@ const projectsData = [
     {
       id: 1,
       title: 'Super Market Sales Analysis',
-      description: `In today's dynamic retail landscape, data-driven insights are essential for staying competitive and meeting customer demands. This PowerBI dashboard offers a user-friendly interface to explore key metrics and trends within our supermarket, facilitating strategic decision-making.`,
+      description: `In today's dynamic retail landscape, data-driven insights are essential for staying competitive and meeting customer demands. This PowerBI dashboard offers a user-friendly interface to explore key metrics and trends within  supermarket, facilitating strategic decision-making.`,
       imageSource: FinancialReport,
       bgColor: '#AC9B8E',
       projectImages:[p1_1,p1_2,p1_3,p1_4],
@@ -46,11 +53,22 @@ const projectsData = [
       projectSkills:['Microsoft Power BI','Data Analysis','Data Visualization','DAX','Dashbord','Power Query'],
       projectGithubLink:'https://github.com/Dhruv-88/Super_Market_Sales_Analysis'
     },
+    {
+      id: 2,
+      title: 'IBM Employee Churn Analysis',
+      description: `The analytics dashboard designed for IBM focuses on providing targeted insights crucial for optimizing employee retention strategies. Tailored specifically for Human Resources Managers and Senior Executives, this dashboard offers a comprehensive view of factors contributing to employee attrition within the company. Through detailed analyses spanning demographics, such as age, gender, generation, and education, to tenure, past corporate records, and other professional career-related aspects.`,
+      imageSource:IBM_1 ,
+      bgColor: '#056ca8',
+      projectImages:[IBM_1,IBM_2,IBM_3,IBM_4],
+      projectCategory:'BIproject',
+      projectSkills:['Tableu','Data Analysis','Data Visualization','Data Cleaning'],
+      projectGithubLink:'https://github.com/Dhruv-88/Super_Market_Sales_Analysis'
+    },
     
     {
         id: 3,
         title: 'Customer Churn Analysis',
-        description:'Customer churn remains a critical challenge for businesses in the contemporary landscape, impacting revenue streams and long-term sustainability (AI, 2023). In response to this, our project aims to delve into the factors influencing customer churn within the telecommunications industry. By employing statistical analyses and machine learning techniques, we seek to answer key questions surrounding the determinants of churn and provide actionable insights for reducing customer attrition.',
+        description:'Customer churn remains a critical challenge for businesses in the contemporary landscape, impacting revenue streams and long-term sustainability. In response to this, my project aims to delve into the factors influencing customer churn within the telecommunications industry. By employing statistical analyses and machine learning techniques, I seek to answer key questions surrounding the determinants of churn and provide actionable insights for reducing customer attrition.',
         imageSource: p3_1,
         bgColor: '#3A302E',
         projectCategory:'DAR',

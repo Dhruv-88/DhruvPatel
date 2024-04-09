@@ -70,7 +70,7 @@ const App = () => {
     
   >
     <h3 className="vertical-timeline-element-title">Jr. React Native Intern</h3>
-    <h4 className="vertical-timeline-element-subtitle">Haraxy Technologies ,Feb 2021 - June 2021</h4>
+    <h4 className="vertical-timeline-element-subtitle">Haraxy Technologies, Feb 2021 - June 2021</h4>
     <h4 className="vertical-timeline-element-subtitle">India</h4>
     <p style={{color:'grey'}}>
       As a React Native intern, I honed my skills in developing native applications by working on real-world application.
@@ -84,8 +84,8 @@ const App = () => {
    
   
   >
-    <h3 className="vertical-timeline-element-title">Bachlor's Final Year Project</h3>
-    <h4 className="vertical-timeline-element-subtitle">Indus University,Jan 2023 - May 2023</h4>
+    <h3 className="vertical-timeline-element-title">Bachelor's Final Year Project</h3>
+    <h4 className="vertical-timeline-element-subtitle">Indus University, Jan 2023 - May 2023</h4>
     <h4 className="vertical-timeline-element-subtitle">Furniture Reality</h4>
     <p style={{color:'grey'}} >
      I developed a native mobile application showcasing Augmented Reality technology tailored specifically for the furniture industry.
@@ -116,7 +116,7 @@ const App = () => {
     
     <h4 className="vertical-timeline-element-subtitle">March 2024 - Current</h4>
 
-    <h4 className="vertical-timeline-element-subtitle">Gamut Canada,Toronto</h4>
+    <h4 className="vertical-timeline-element-subtitle">Gamut Canada, Toronto</h4>
     <p style={{color:'grey'}}>
      In my current role, I'm crafting a PowerBI dashboard for comprehensive analysis of sales, finances, inventory, and customer data.
     </p>
