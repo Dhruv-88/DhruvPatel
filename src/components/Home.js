@@ -100,7 +100,7 @@ const App = () => {
   >
     <h3 className="vertical-timeline-element-title">Northeastern AI Assistant</h3>
     <h4 className="vertical-timeline-element-subtitle">Northeastern University, Jan 2024 - Current</h4>
-    <h4 className="vertical-timeline-element-subtitle">Stundent Assistant</h4>
+    <h4 className="vertical-timeline-element-subtitle">Student Assistant</h4>
     <p style={{color:'grey'}}>
     I collaborated with a professor to develop a cutting-edge chatbot utilizing  RAG (Retrieval-Augmented Generation) technology, integrating openAI and langchain capabilities.
     </p>
@@ -169,13 +169,13 @@ const App = () => {
           <img src={ProjectImage} alt="ProjectImage"/>
         </div>
         <div className="subsection2">
-          <h2 >Interactive business intellegent dashbord for super market salesdata <br/>
+          <h2 >Interactive business intellegent dashboard for super market sales data <br/>
           to analyse key metrics, company performance and sales.</h2>
           <button 
           onClick={
             ()=>navigate('/IndevidualProject/1')
           }
-          className="ViewDashbordButton">View Dashbord</button>
+          className="ViewDashbordButton">View Dashboard</button>
         </div>
 
       </div>
@@ -198,7 +198,7 @@ const App = () => {
 
              <div className="CertiSubContainer">
                  <img src={HackerRank}/>
-                 <h2>Hacker Rank SQL 5 Start Badge.</h2>
+                 <h2>Hacker Rank SQL 5 Star Badge.</h2>
              </div>
           </div>
       </div>
@@ -206,7 +206,7 @@ const App = () => {
       {/* Section 5 */}
       <div className="section section5">
        
-       <p>I'd Love to work With You</p>
+       <p>I'd Love to Work With You</p>
 
        <button  onClick={
         ()=>{
