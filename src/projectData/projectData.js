@@ -62,7 +62,7 @@ const projectsData = [
       projectImages:[IBM_1,IBM_2,IBM_3,IBM_4],
       projectCategory:'BIproject',
       projectSkills:['Tableu','Data Analysis','Data Visualization','Data Cleaning'],
-      projectGithubLink:'https://github.com/Dhruv-88/Super_Market_Sales_Analysis'
+      projectGithubLink:'https://github.com/Dhruv-88/HR_Analysis_Report/tree/main'
     },
     
     {
