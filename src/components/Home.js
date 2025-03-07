@@ -39,8 +39,8 @@ const App = () => {
       {/* Section 1 */}
       <div className="section section1" >
         <div className="left-part">
-            <p>Unlocking Insights From Data,
-              <br/>Welcome To My Data Analyst Portfolio.</p>
+            <p>I'm Versatile, Impact-Driven Technologist,
+              <br/>Welcome To My Portfolio.</p>
             
             </div>
 
@@ -60,37 +60,8 @@ const App = () => {
       {/* new Section */}
       <div style={{width:'99vw'}}>
       <VerticalTimeline>
-  <VerticalTimelineElement
-    className="vertical-timeline-element--work"
-    contentStyle={{ background: 'white', color: 'black' }}
-    contentArrowStyle={{ borderRight: '7px solid  white' }}
-    
-    iconStyle={{ background: 'black', color: '#fff' }}
-    icon={<BsPhoneFill />  }
-    
-  >
-    <h3 className="vertical-timeline-element-title">Jr. React Native Intern</h3>
-    <h4 className="vertical-timeline-element-subtitle">Haraxy Technologies, Feb 2021 - June 2021</h4>
-    <h4 className="vertical-timeline-element-subtitle">India</h4>
-    <p style={{color:'grey'}}>
-      As a React Native intern, I honed my skills in developing native applications by working on real-world application.
-    </p>
-  </VerticalTimelineElement>
-  <VerticalTimelineElement
-    className="vertical-timeline-element--work"
-    
-    iconStyle={{ background: 'black', color: '#fff' }}
-    icon={<BsBadgeArFill />}
-   
-  
-  >
-    <h3 className="vertical-timeline-element-title">Bachelor's Final Year Project</h3>
-    <h4 className="vertical-timeline-element-subtitle">Indus University, Jan 2023 - May 2023</h4>
-    <h4 className="vertical-timeline-element-subtitle">Furniture Reality</h4>
-    <p style={{color:'grey'}} >
-     I developed a native mobile application showcasing Augmented Reality technology tailored specifically for the furniture industry.
-    </p>
-  </VerticalTimelineElement>
+
+
   <VerticalTimelineElement
     className="vertical-timeline-element--work"
     
@@ -114,11 +85,28 @@ const App = () => {
   >
     <h3 className="vertical-timeline-element-title">Data Analyst</h3>
     
-    <h4 className="vertical-timeline-element-subtitle">March 2024 - Current</h4>
+    <h4 className="vertical-timeline-element-subtitle">March 2024 - May 2024</h4>
 
     <h4 className="vertical-timeline-element-subtitle">Gamut Canada, Toronto</h4>
     <p style={{color:'grey'}}>
      In my current role, I'm crafting a PowerBI dashboard for comprehensive analysis of sales, finances, inventory, and customer data.
+    </p>
+  </VerticalTimelineElement>
+
+  <VerticalTimelineElement
+    className="vertical-timeline-element--work"
+    
+    iconStyle={{ background: 'black', color: '#fff'}}
+    icon={<BsClipboardDataFill />  }
+    
+  >
+    <h3 className="vertical-timeline-element-title"> Machine Learning & Full Stack Engineer </h3>
+    
+    <h4 className="vertical-timeline-element-subtitle">July 2024 - Feb -2025</h4>
+
+    <h4 className="vertical-timeline-element-subtitle">Publicus.ai</h4>
+    <p style={{color:'grey'}}>
+    I developed financial content analysis system using GenAI, built a personalized news summary system, and created scalable cloud-based infrastructure with Google Cloud for efficient deployment and future project integration.
     </p>
   </VerticalTimelineElement>
   
@@ -131,7 +119,7 @@ const App = () => {
       <div className="section section2">
         
           <h1>
-            I excel in crafting powerful analytics projects, business intelligence dashboards, and insightful data  reports.
+            Eager to Apply AI, Data Analytics and Full-Stack Development Expertise to Drive Innovation 
           </h1>
        
         
