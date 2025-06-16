@@ -17,6 +17,12 @@ import p1_2 from '../assets/SuperMarketAnalysis2.png';
 import p1_3 from '../assets/SuperMarketAnalysis3.png';
 import p1_4 from '../assets/SuperMarketAnalysis4.png';
 
+//project2 images News BI Dashboard
+import NEWS_DASHBOARD_1 from '../assets/NewsDashboard1.png';
+import NEWS_DASHBOARD_2 from '../assets/NewsDashboard2.png';
+import NEWS_DASHBOARD_3 from '../assets/NewsDashboard3.png';
+import NEWS_DASHBOARD_4 from '../assets/NewsDashboard4.png';
+
 //project3 customer churn.
 import p3_1 from '../assets/CustomerChurnAnalysis1.jpeg';
 import p3_2 from '../assets/CustomerChurnAnalysis2.png';
@@ -42,8 +48,19 @@ import p7_3 from '../assets/pro_7img3.png';
 
 
 const projectsData = [
+  {
+    id: 1,
+    title: 'End-to-End News BI Dashboard',
+    description: `This project involves building a Dashboard using Looker Studio for visualizing real-time news data fetched via the News API. The dashboard features automated ETL processes using Google Cloud Functions that run every 12 hours, along with sentiment analysis performed on news articles using pre-trained NLP models to classify content as positive, negative, or neutral which is aim to provide sentiment-based insights, and real-time business intelligence capabilities using Google Cloud  services.`,
+    imageSource: NEWS_DASHBOARD_1, // Replace with your actual image variable
+    bgColor: '#722F37', // Google Blue color - adjust as needed
+    projectImages: [NEWS_DASHBOARD_1, NEWS_DASHBOARD_2, NEWS_DASHBOARD_3, NEWS_DASHBOARD_4], // Replace with your actual image variables
+    projectCategory: 'BIproject',
+    projectSkills: ['Looker Studio', 'Google Cloud Functions', 'BigQuery', 'ETL', 'Sentiment Analysis', 'API handling', 'NLP', 'Google Cloud Scheduler', 'Data Visualization', 'Real-time Analytics'],
+    projectGithubLink: 'https://lookerstudio.google.com/reporting/a2b5dcc8-c710-447f-890d-68267f51d3e2'
+  },
     {
-      id: 1,
+      id: 2,
       title: 'Super Market Sales Analysis',
       description: `In today's dynamic retail landscape, data-driven insights are essential for staying competitive and meeting customer demands. This PowerBI dashboard offers a user-friendly interface to explore key metrics and trends within  supermarket, facilitating strategic decision-making.`,
       imageSource: FinancialReport,
@@ -54,7 +71,7 @@ const projectsData = [
       projectGithubLink:'https://github.com/Dhruv-88/Super_Market_Sales_Analysis'
     },
     {
-      id: 2,
+      id: 3,
       title: 'IBM Employee Churn Analysis',
       description: `The analytics dashboard designed for IBM focuses on providing targeted insights crucial for optimizing employee retention strategies. Tailored specifically for Human Resources Managers and Senior Executives, this dashboard offers a comprehensive view of factors contributing to employee attrition within the company. Through detailed analyses spanning demographics, such as age, gender, generation, and education, to tenure, past corporate records, and other professional career-related aspects.`,
       imageSource:IBM_1 ,
@@ -65,8 +82,9 @@ const projectsData = [
       projectGithubLink:'https://github.com/Dhruv-88/HR_Analysis_Report/tree/main'
     },
     
+    
     {
-        id: 3,
+        id: 4,
         title: 'Customer Churn Analysis',
         description:'Customer churn remains a critical challenge for businesses in the contemporary landscape, impacting revenue streams and long-term sustainability. In response to this, my project aims to delve into the factors influencing customer churn within the telecommunications industry. By employing statistical analyses and machine learning techniques, I seek to answer key questions surrounding the determinants of churn and provide actionable insights for reducing customer attrition.',
         imageSource: p3_1,
@@ -78,7 +96,7 @@ const projectsData = [
 
       },
       {
-        id: 4,
+        id: 5,
         title: 'Health Insurance Premium Analysis ',
         description: `Healthcare costs are a significant concern for individuals and families worldwide. Understanding the factors influencing insurance premium charges can help insurance companies optimize pricing strategies and assist individuals in making informed decisions about their healthcare coverage. In this project, I aim to delve into the dataset to uncover insights about the relationships between various attributes and insurance charges. Through exploratory data analytics, statistical hypothesis testing, and modeling techniques such as linear regression.`,
         imageSource:p4_4,
@@ -91,7 +109,7 @@ const projectsData = [
 
       },
       {
-        id: 5,
+        id: 6,
         title: 'Project 5',
         description: 'Description for Project 1.',
         imageSource: FinancialReport,
@@ -99,7 +117,7 @@ const projectsData = [
         projectCategory:'Excel'
       },
       {
-        id: 6,
+        id: 7,
         title: 'Project 6',
         description: 'Description for Project 2.',
         imageSource: FinancialReport,
@@ -107,7 +125,7 @@ const projectsData = [
         projectCategory:'Excel'
       },
       {
-        id: 7,
+        id: 8,
         title: 'Furniture Reality',
         description: `Furniture Reality is a user-friendly mobile app that utilizes Augmented Reality to bring furniture to life in users' spaces. With a straightforward interface, it allows customers to visualize furniture in their rooms, helping them assess size, scale, and style. Users can customize furniture colors and finishes to match existing decor and preview it in different lighting conditions, minimizing the likelihood of dissatisfaction and returns.`,
         imageSource: FurnitureRealityPoster,
