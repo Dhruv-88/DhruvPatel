@@ -14,7 +14,7 @@ import ContactForm from './ContactForm';
 import { VerticalTimeline, VerticalTimelineElement }  from 'react-vertical-timeline-component';
 import 'react-vertical-timeline-component/style.min.css';
 import { BsPhoneFill } from "react-icons/bs";
-import { BsBadgeArFill } from "react-icons/bs";
+import { BsArchiveFill } from "react-icons/bs";
 import { SiAdobeillustrator } from "react-icons/si";
 import { BsClipboardDataFill } from "react-icons/bs";
 
@@ -61,20 +61,34 @@ const App = () => {
       <div style={{width:'99vw'}}>
       <VerticalTimeline>
 
+    <VerticalTimelineElement
+    className="vertical-timeline-element--work"
+    
+    iconStyle={{ background: 'black', color: '#fff'}}
+    icon={<SiAdobeillustrator />  }
+    
+  >
+    <h3 className="vertical-timeline-element-title"> Machine Learning & Full Stack Engineer </h3>
+    
+    <h4 className="vertical-timeline-element-subtitle">July 2024 - Feb -2025</h4>
 
+    <h4 className="vertical-timeline-element-subtitle">Publicus.ai</h4>
+    <p style={{color:'grey'}}>
+    Engineered LLM query expansion systems with 20% improved search relevance and built AI agent for automated social media content creation.
+    Developed scalable full-stack architecture with CI/CD pipeline, reducing development time by 30%.    </p>
+  </VerticalTimelineElement>
   <VerticalTimelineElement
     className="vertical-timeline-element--work"
     
     iconStyle={{background: 'black', color: '#fff'  }}
-    icon={<SiAdobeillustrator />  }
+    icon={<BsArchiveFill />  }
     
   >
-    <h3 className="vertical-timeline-element-title">Northeastern AI Assistant</h3>
-    <h4 className="vertical-timeline-element-subtitle">Northeastern University, Jan 2024 - Current</h4>
-    <h4 className="vertical-timeline-element-subtitle">Student Assistant</h4>
+    <h3 className="vertical-timeline-element-title"> Data Analyst</h3>
+    <h4 className="vertical-timeline-element-subtitle"> Jan 2025 - March 2025</h4>
+    <h4 className="vertical-timeline-element-subtitle"> CAMH, Toronto</h4>
     <p style={{color:'grey'}}>
-    I collaborated with a professor to develop a cutting-edge chatbot utilizing  RAG (Retrieval-Augmented Generation) technology, integrating openAI and langchain capabilities.
-    </p>
+    Led 3-member team to design and develop Tableau dashboard for healthcare wearable device data quality assessment with smart alert functionality.     </p>
   </VerticalTimelineElement>
   <VerticalTimelineElement
     className="vertical-timeline-element--work"
@@ -89,26 +103,10 @@ const App = () => {
 
     <h4 className="vertical-timeline-element-subtitle">Gamut Canada, Toronto</h4>
     <p style={{color:'grey'}}>
-     In my current role, I'm crafting a PowerBI dashboard for comprehensive analysis of sales, finances, inventory, and customer data.
-    </p>
+    Implemented forecasting model predicting shelf life for 300+ products using 24-month sales data and developed interactive Power BI dashboards, optimizing inventory management while providing comprehensive insights into company performance and customer patterns.    </p>
   </VerticalTimelineElement>
 
-  <VerticalTimelineElement
-    className="vertical-timeline-element--work"
-    
-    iconStyle={{ background: 'black', color: '#fff'}}
-    icon={<BsClipboardDataFill />  }
-    
-  >
-    <h3 className="vertical-timeline-element-title"> Machine Learning & Full Stack Engineer </h3>
-    
-    <h4 className="vertical-timeline-element-subtitle">July 2024 - Feb -2025</h4>
 
-    <h4 className="vertical-timeline-element-subtitle">Publicus.ai</h4>
-    <p style={{color:'grey'}}>
-    I developed financial content analysis system using GenAI, built a personalized news summary system, and created scalable cloud-based infrastructure with Google Cloud for efficient deployment and future project integration.
-    </p>
-  </VerticalTimelineElement>
   
   
 </VerticalTimeline>
@@ -119,7 +117,7 @@ const App = () => {
       <div className="section section2">
         
           <h1>
-            Eager to Apply AI, Data Analytics and Full-Stack Development Expertise to Drive Innovation 
+            Passionate About Leveraging ML, Data Science and Business Intelligence to Transform Data into Strategic Business Solutions 
           </h1>
        
         

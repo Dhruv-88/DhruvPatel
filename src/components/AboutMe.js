@@ -12,7 +12,10 @@ import PersonalImage2 from '../assets/personalimage_2.jpg';
 import { useNavigate } from 'react-router-dom';
 import Investor from '../assets/investor.jpg';
 import WebDeveloper from '../assets/webDeveloper.jpg';
-import MobileDeveloper from '../assets/mobileDeveloper.jpg';
+import MobileDeveloper from '../assets/mobileDeveloper.jpg'; 
+import Cycling from '../assets/cycle.png';
+import Hiking from '../assets/hiking.png';
+import Finance from '../assets/finance.png'
 const AboutMe = () => {
   const navigate = useNavigate();
   return (
@@ -27,8 +30,9 @@ const AboutMe = () => {
         <div className="Section1Right">
           <div>
               <h3 className="s1rsubcontainer" >
-              From enhancing university systems with AI, to driving business decisions through data analytics and finally developing scalable AI-powered products—has shaped me into a versatile, impact-driven technologist. I am eager to bring this unique blend of AI, data analytics, and full-stack development expertise to workplace, where I can contribute to building intelligent, scalable, and data-driven solutions.              </h3>
-          </div>
+              From developing AI-powered query expansion systems and automated content generation platforms, to leading data-driven healthcare research initiatives and building predictive models for inventory optimization—my journey has shaped me into a versatile, results-oriented data professional. I am eager to contribute in building intelligent, scalable, and data-driven solutions that deliver business impact.  
+              </h3>
+               </div>
             
         </div>
       </div>
@@ -57,24 +61,24 @@ const AboutMe = () => {
         </div>
         <div className="Section3Content">
             <div className="Section3Left">
-                  <img src={Investor}/>
+                  <img src={Finance}/>
                   
-                  <h2 >An Investor with more then 60% ROI</h2>
+                  <h2 >Economics and finance enthusiast </h2>
                   
               </div>
 
             <div className="Section3Right">
               
                     <div className="Section3RightSubWithBorder">
-                          <img src={MobileDeveloper}/>
+                          <img src={Cycling}/>
                       
-                          <h2>Native Mobile Application Developer </h2>
+                          <h2>Cycling aficionado </h2>
                     </div>
 
                     <div className="Section3RightSub">
-                          <img src={WebDeveloper}/>
+                          <img src={Hiking}/>
                             
-                            <h2>Website Developer</h2>
+                            <h2>Nature-loving trail hiker</h2>
                     </div>
             </div>
 
@@ -84,21 +88,21 @@ const AboutMe = () => {
 
            <div className="Section3ContentMobileView" >
                     <div className="mobilViewContainer">
-                    <img src={Investor}/>
+                    <img src={Finance}/>
                   
                   <h2 >Investor with more than 60% ROI</h2>
                     </div>
 
                     <div className="mobilViewContainer">
-                    <img src={MobileDeveloper}/>
+                    <img src={Cycling}/>
                       
-                      <h2>Native Mobile Application Developer </h2>
+                      <h2>Cycling aficionado  </h2>
                     </div>
 
                     <div className="mobilViewContainer">
-                          <img src={WebDeveloper}/>
+                          <img src={Hiking}/>
                             
-                            <h2>Website Developer</h2>
+                            <h2>Nature-loving trail hiker</h2>
                     </div>
             </div>  
            
